@@ -1,0 +1,172 @@
+/*global*/
+
+*{
+    margin:0;
+}
+
+/*header section*/
+header{
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+    font-style: italic;
+    height: 250px;   
+    font-weight: bold;
+    background-image: url("bg5.jpg");
+                                                              
+}
+.title {
+    color: blue;
+    font-family: 'Source Code Pro', monospace;
+    padding: 20px;
+    font-weight: 900;
+}
+
+nav.menu a{
+    color:black;
+    font-weight: 700;
+    margin-right:  30px;
+}
+
+h1{
+    color:rgb(226, 167, 39);
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 3px black;
+    padding: 20px
+}
+
+/*body section*/
+
+body{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+}
+.homepage-para{
+    color: black;
+}
+
+.contact-page{
+
+    background-image: url("bg5.jpg");
+    height: 55vh;
+
+}
+.contact{
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    text-shadow: 1px 5px black;
+    text-decoration: underline;
+    padding: 10px 10px 10px 10px;
+}
+
+.location-container{
+    padding: 20px 20px 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.registration-form{
+   color: black;
+   padding: 10px 10px 10px 10px;
+    display: flexbox;
+    flex-wrap:nowrap;
+    background-color: white;
+}
+.reg-title{
+    color: blue;
+    padding: 10px ;
+    text-align: center;
+    font-size: 30px;
+}
+
+.location{
+    color: black;
+    padding: 20px 20px 20px 30px;
+    text-align: left;
+    background-color: white;
+}
+
+.contact-details{
+    color: black;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    background-color: white;
+}
+
+.input{
+    padding: 10px ;
+}
+
+p{
+    
+    line-height:2;
+    width: 70%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    padding: 5px auto 5px auto
+}
+
+h3{
+    text-align: center;
+    color:red;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px
+}
+
+main{
+    height: 55vh;
+}
+
+/*footer section*/
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    text-align: center;
+    color: white;
+
+}
+nav.social-networks a{
+    color:red;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.copy1{
+
+    text-align: center;
+    color: black;
+}
+
+/*services*/
+div.services{
+    background-color: #dedede;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+div.services ol li{
+    margin-bottom: 20px;
+    font-size: 14px;
+
+}
+div.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+div.services ol li:hover{
+    background-color: yellow;
+}
+
+div.homepage-container{
+    color: black;
+}
